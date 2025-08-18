@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",                         
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "jsx": "react-jsx"                      // ⬅️ ESSENCIAL para TSX funcionar!
+  },
+  "include": ["vite.config.ts", "src"]
+}
