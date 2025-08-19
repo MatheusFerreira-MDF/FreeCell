@@ -66,27 +66,29 @@ export const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
     }
 
     // Criar mensagem para WhatsApp
-    let message = `🛒 *NOVO PEDIDO*\n\n`;
-    message += `👤 *Cliente:* ${customerInfo.name}\n`;
-    message += `📍 *Bairro:* ${customerInfo.neighborhood}\n`;
-    message += `🏙️ *Cidade:* ${customerInfo.city}\n\n`;
-    
-    message += `📦 *Produtos:*\n`;
-    state.items.forEach((item) => {
-      const price = isWholesale ? item.wholesalePrice : item.retailPrice;
-      message += `• ${item.name}\n`;
-      message += `  Qtd: ${item.quantity} x ${formatPrice(price)} = ${formatPrice(price * item.quantity)}\n\n`;
-    });
+      let message = `*NOVO PEDIDO*\n\n`;
+      message += `*Cliente:* ${customerInfo.name}\n`;
+      message += `*Bairro:* ${customerInfo.neighborhood}\n`;
+      message += `*Cidade:* ${customerInfo.city}\n\n`;
 
-    message += `💰 *Total: ${formatPrice(totalPrice)}*\n`;
-    if (isWholesale) {
-      message += `🏷️ *Preço Atacado Aplicado* (${totalItems} itens)\n`;
-    }
-    
-    const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodedMessage}`;
-    
-    window.open(whatsappUrl, '_blank');
+      message += `*Produtos:*\n`;
+      state.items.forEach((item) => {
+        const price = isWholesale ? item.wholesalePrice : item.retailPrice;
+        message += `• ${item.name}\n`;
+        message += `  Qtd: ${item.quantity} x ${formatPrice(price)} = ${formatPrice(price * item.quantity)}\n\n`;
+      });
+
+      message += `*Total: ${formatPrice(totalPrice)}*\n`;
+      if (isWholesale) {
+        message += `*Preço Atacado Aplicado* (${totalItems} itens)\n`;
+      }
+
+      const encodedMessage = encodeURIComponent(message);
+      const whatsappUrl = `https://api.whatsapp.com/send?phone=5532984876465&text=${encodedMessage}`;
+
+      console.log("URL final:", whatsappUrl);
+      window.open(whatsappUrl, '_blank');
+
     
     // Limpar carrinho e fechar
     clearCart();
