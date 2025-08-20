@@ -1674,7 +1674,7 @@ export const products: Product[] = [
     category: 'utilidades',
     retailPrice: 0.00,
     wholesalePrice: 0.00,
-    inStock: true
+    inStock: false
   },
   {
     id: 'util-039',
