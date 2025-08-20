@@ -318,8 +318,8 @@ export const products: Product[] = [
     description: 'Balança digital de cozinha, capacidade de 10 kg, ideal para receitas.',
     image: '/EletronicosFredChat/BalançaDigitalCozinha.png',
     category: 'eletronicos',
-    retailPrice: 0.00,
-    wholesalePrice: 0.00,
+    retailPrice: 25.00,
+    wholesalePrice: 17.50,
     inStock: true
   },
   {
@@ -464,12 +464,12 @@ export const products: Product[] = [
   },
   {
     id: 'ele-047',
-    name: 'Controle / Manete de PS4 sem fio Wireless',
-    description: 'Controle / Manete para PS4 sem fio',
-    image: '/EletronicosFredChat/WirelessPs4.png',
+    name: 'Fonte Turbo LehMox Entrada C',
+    description: 'Fonte Turbo LehMox Entrada C, 5V 3A.',
+    image: '/EletronicosFredChat/FonteC.png',
     category: 'eletronicos',
-    retailPrice: 100.00,
-    wholesalePrice: 85.00,
+    retailPrice: 35.00,
+    wholesalePrice: 17.50,
     inStock: true
   },
   {
@@ -506,7 +506,7 @@ export const products: Product[] = [
     id: 'ele-051',
     name: 'Radio Vintage AD-131',
     description: 'Radio Vintage Altomex modelo AD-131',
-    image: '/EletronicosFredChat/RadioAd131.png',
+    image: '/EletronicosFredChat/RadioAD131.png',
     category: 'eletronicos',
     retailPrice: 120.00,
     wholesalePrice: 86.00,
@@ -746,7 +746,7 @@ export const products: Product[] = [
     id: 'ele-075',
     name: 'Lanterna de Led Com 4 Led',
     description: 'Lanterna de Led Com 4 Led.',
-    image: '/EletronicosFredChat/Lanterna4Lampadas.png',
+    image: '/EletronicosFredChat/Lanterna4lampadas.png',
     category: 'eletronicos',
     retailPrice: 25.00,
     wholesalePrice: 17.50,
@@ -969,7 +969,7 @@ export const products: Product[] = [
     image: '/EletronicosFredChat/ProjetorLua.png',
     category: 'eletronicos',
     retailPrice: 100.00,
-    wholesalePrice: 65.00,
+    wholesalePrice: 70.00,
     inStock: true
   },
   {
@@ -978,7 +978,7 @@ export const products: Product[] = [
     description: 'Cabo AV para PS2/PS3.',
     image: '/EletronicosFredChat/CaboPS2PS3.png',
     category: 'eletronicos',
-    retailPrice: 20.00,
+    retailPrice: 15.00,
     wholesalePrice: 8.50,
     inStock: true
   },
@@ -1433,7 +1433,7 @@ export const products: Product[] = [
     image: '/UtilidadesFredChat/BombaEletrica.png',
     category: 'utilidades',
     retailPrice: 25.00,
-    wholesalePrice: 18.50,
+    wholesalePrice: 17.50,
     inStock: true
   },
   {
@@ -1732,8 +1732,8 @@ export const products: Product[] = [
     description: 'Suporte para celular de moto, ideal para navegação e chamadas.',
     image: '/UtilidadesFredChat/SuporteMoto4.png',
     category: 'utilidades',
-    retailPrice: 35.00,
-    wholesalePrice: 22.00,
+    retailPrice: 45.00,
+    wholesalePrice: 28.00,
     inStock: true
   },
   {
@@ -1772,8 +1772,8 @@ export const products: Product[] = [
     description: 'Suporte para celular de moto, ideal para navegação e chamadas.',
     image: '/UtilidadesFredChat/SuporteMoto8.png',
     category: 'utilidades',
-    retailPrice: 0.00,
-    wholesalePrice: 0.00,
+    retailPrice: 35.00,
+    wholesalePrice: 18.50,
     inStock: true
   },
   {
@@ -1856,6 +1856,378 @@ export const products: Product[] = [
     wholesalePrice: 14.50,
     inStock: true
   },
+  {
+    id: 'util-057',
+    name: 'Abraçadeira de Nylon / Enforca Gato Grande ',
+    description: 'Abraçadeira de Nylon / Enforca Gato Grande.',
+    image: '/UtilidadesFredChat/Abraçadeira20cm.png',
+    category: 'utilidades',
+    retailPrice: 12.00,
+    wholesalePrice: 8.50,
+    inStock: true
+  },
+  {
+    id: 'util-058',
+    name: 'Abraçadeira de Nylon / Enforca Gato Pequena ',
+    description: 'Abraçadeira de Nylon / Enforca Gato P.',
+    image: '/UtilidadesFredChat/AbraçadeiraP.png',
+    category: 'utilidades',
+    retailPrice: 8.00,
+    wholesalePrice: 6.00,
+    inStock: true
+  },
+  {
+    id: 'util-059',
+    name: 'Abraçadeira para mangueira de gás Unidade ',
+    description: 'Abraçadeira para mangueira de gás unidade.',
+    image: '/UtilidadesFredChat/AbraçadeiraGas.png',
+    category: 'utilidades',
+    retailPrice: 2.00,
+    wholesalePrice: 1.00,
+    inStock: true
+  },
+  {
+    id: 'util-060',
+    name: 'Amassador de Alho Manual ',
+    description: 'Amassador de Alho Manual.',
+    image: '/UtilidadesFredChat/AmassadorAlho.png',
+    category: 'utilidades',
+    retailPrice: 15.00,
+    wholesalePrice: 8.50,
+    inStock: true
+  },
+  {
+    id: 'util-061',
+    name: 'Banco Dobrável Portátil infantil ',
+    description: 'Banco Dobrável Portátil infantil.',
+    image: '/UtilidadesFredChat/BancoInfantil.png',
+    category: 'utilidades',
+    retailPrice: 45.00,
+    wholesalePrice: 45.00,
+    inStock: true
+  },
+  {
+    id: 'util-062',
+    name: 'Bolsa de Agua Quente',
+    description: 'Bolsa de Agua Quente.',
+    image: '/UtilidadesFredChat/BolsaAgua.png',
+    category: 'utilidades',
+    retailPrice: 25.00,
+    wholesalePrice: 17.50,
+    inStock: true
+  },
+  {
+    id: 'util-063',
+    name: 'Bolsa de Papel ',
+    description: 'Bolsa de Papel.',
+    image: '/UtilidadesFredChat/BolsaPapel.png',
+    category: 'utilidades',
+    retailPrice: 5.00,
+    wholesalePrice: 5.00,
+    inStock: true
+  },
+  {
+    id: 'util-064',
+    name: 'Bomba de Ar Manual Pequena ',
+    description: 'Bomba de Ar Manual Pequena.',
+    image: '/UtilidadesFredChat/BombaManual2.png',
+    category: 'utilidades',
+    retailPrice: 15.00,
+    wholesalePrice: 10.00,
+    inStock: true
+  },
+  {
+    id: 'util-065',
+    name: 'Buchinha / prendedor de cabelos 6 unidades ',
+    description: 'Buchinha / prendedor de cabelos 6 unidades.',
+    image: '/UtilidadesFredChat/Buchinha.png',
+    category: 'utilidades',
+    retailPrice: 5.00,
+    wholesalePrice: 3.50,
+    inStock: true
+  },
+  {
+    id: 'util-066',
+    name: 'Carrinho de Lona / Feira / Mercado ',
+    description: 'Carrinho de Lona / Feira / Mercado.',
+    image: '/UtilidadesFredChat/CarrinhoFeira.png',
+    category: 'utilidades',
+    retailPrice: 80.00,
+    wholesalePrice: 80.00,
+    inStock: true
+  },
+  {
+    id: 'util-067',
+    name: 'Cortador de Comprimidos / Pílulas ',
+    description: 'Cortador de Comprimidos / Pílulas.',
+    image: '/UtilidadesFredChat/CortadorComprimidos.png',
+    category: 'utilidades',
+    retailPrice: 10.00,
+    wholesalePrice: 7.50,
+    inStock: true
+  },
+  {
+    id: 'util-068',
+    name: 'Escova Multiuso',
+    description: 'Escova Multiuso.',
+    image: '/UtilidadesFredChat/EscoavaMultiuso.png',
+    category: 'utilidades',
+    retailPrice: 10.00,
+    wholesalePrice: 7.50,
+    inStock: true
+  },
+  {
+    id: 'util-069',
+    name: 'Escorredor de Talheres de Metal',
+    description: 'Escorredor de Talheres de Metal.',
+    image: '/UtilidadesFredChat/EscorredorTalheres.png',
+    category: 'utilidades',
+    retailPrice: 15.00,
+    wholesalePrice: 10.00,
+    inStock: true
+  },
+  {
+    id: 'util-070',
+    name: 'Kit 3 Escova de Aço',
+    description: 'Kit 3 Escova de Aço.',
+    image: '/UtilidadesFredChat/EscovaAço.png',
+    category: 'utilidades',
+    retailPrice: 15.00,
+    wholesalePrice: 10.00,
+    inStock: true
+  },
+  {
+    id: 'util-071',
+    name: 'Espelho com Aumento / Zoom ',
+    description: 'Espelho com Aumento / Zoom.',
+    image: '/UtilidadesFredChat/EspelhoZoom.png',
+    category: 'utilidades',
+    retailPrice: 25.00,
+    wholesalePrice: 18.50,
+    inStock: true
+  },
+  {
+    id: 'util-072',
+    name: 'Fita Marrom Adesiva para Embalagem',
+    description: 'Fita Marrom Adesiva para Embalagem Caixa.',
+    image: '/UtilidadesFredChat/FitaMarrom.png',
+    category: 'utilidades',
+    retailPrice: 25.00,
+    wholesalePrice: 25.00,
+    inStock: true
+  },
+  {
+    id: 'util-073',
+    name: 'Fita Multiuso Cinza ',
+    description: 'Fita Multiuso Cinza.',
+    image: '/UtilidadesFredChat/FitaMultiuso.png',
+    category: 'utilidades',
+    retailPrice: 12.00,
+    wholesalePrice: 8.50,
+    inStock: true
+  },
+  {
+    id: 'util-074',
+    name: 'Chaveiro Frasco para Alcool em Gel de Bolsa ',
+    description: 'Chaveiro Frasco para Alcool em Gel de Bolsa.',
+    image: '/UtilidadesFredChat/FrascoAlcool.png',
+    category: 'utilidades',
+    retailPrice: 5.00,
+    wholesalePrice: 3.50,
+    inStock: true
+  },
+  {
+    id: 'util-075',
+    name: 'Jogo Americano  ',
+    description: 'Jogo Americano .',
+    image: '/UtilidadesFredChat/JogoAmericano.png',
+    category: 'utilidades',
+    retailPrice: 10.00,
+    wholesalePrice: 10.00,
+    inStock: true
+  },
+  {
+    id: 'util-076',
+    name: 'Kit de Frasco Para Viagem 3 Peças ',
+    description: 'Kit de Frasco Para Viagem 3 Peças.',
+    image: '/UtilidadesFredChat/KitViagem.png',
+    category: 'utilidades',
+    retailPrice: 10.00,
+    wholesalePrice: 7.50,
+    inStock: true
+  },
+  {
+    id: 'util-077',
+    name: 'Luz Noturna de Tomada  ',
+    description: 'Luz Noturna de Tomada.',
+    image: '/UtilidadesFredChat/LuzNoturna.png',
+    category: 'utilidades',
+    retailPrice: 10.00,
+    wholesalePrice: 7.50,
+    inStock: true
+  },
+  {
+    id: 'util-078',
+    name: 'Maçarico / Isqueiro Recarregável Multiuso',
+    description: 'Maçarico / Isqueiro Recarregável Multiuso.',
+    image: '/UtilidadesFredChat/Maçarico.png',
+    category: 'utilidades',
+    retailPrice: 20.00,
+    wholesalePrice: 14.50,
+    inStock: true
+  },
+  {
+    id: 'util-079',
+    name: 'Medidor de Liquido / Copo Medidor 500 ml',
+    description: 'Medidor de Liquido / Copo Medidor 500 ml.',
+    image: '/UtilidadesFredChat/Medidor.png',
+    category: 'utilidades',
+    retailPrice: 5.00,
+    wholesalePrice: 3.50,
+    inStock: true
+  },
+  {
+    id: 'util-080',
+    name: 'Pano de Microfibra ',
+    description: 'Pano de Microfibra.',
+    image: '/UtilidadesFredChat/MicroFibra.png',
+    category: 'utilidades',
+    retailPrice: 10.00,
+    wholesalePrice: 7.50,
+    inStock: true
+  },
+  {
+    id: 'util-081',
+    name: 'Bola de sisal para gatos ',
+    description: 'Bola de sisal para gatos.',
+    image: '/UtilidadesFredChat/Peteca.png',
+    category: 'utilidades',
+    retailPrice: 10.00,
+    wholesalePrice: 7.50,
+    inStock: true
+  },
+  {
+    id: 'util-082',
+    name: 'Sacola de Rafia Grande ',
+    description: 'Sacola de Rafia Grande.',
+    image: '/UtilidadesFredChat/RafiaG.png',
+    category: 'utilidades',
+    retailPrice: 25.00,
+    wholesalePrice: 18.50,
+    inStock: true
+  },
+  {
+    id: 'util-083',
+    name: 'Sacola de Rafia Media ',
+    description: 'Sacola de Rafia Media.',
+    image: '/UtilidadesFredChat/RafiaM.png',
+    category: 'utilidades',
+    retailPrice: 20.00,
+    wholesalePrice: 14.50,
+    inStock: true
+  },
+  {
+    id: 'util-084',
+    name: 'Sacola de Rafia Pequena',
+    description: 'Sacola de Rafia Pequena.',
+    image: '/UtilidadesFredChat/RafiaP.png',
+    category: 'utilidades',
+    retailPrice: 15.00,
+    wholesalePrice: 10.00,
+    inStock: true
+  },
+  {
+    id: 'util-085',
+    name: 'Ralo de Pia Inox',
+    description: 'Ralo de Pia Inox.',
+    image: '/UtilidadesFredChat/RaloPia.png',
+    category: 'utilidades',
+    retailPrice: 10.00,
+    wholesalePrice: 5.50,
+    inStock: true
+  },
+  {
+    id: 'util-086',
+    name: 'Rede Elástica para Carga de Moto ',
+    description: 'Rede Elástica para Carga de Moto.',
+    image: '/UtilidadesFredChat/RedeMoto.png',
+    category: 'utilidades',
+    retailPrice: 15.00,
+    wholesalePrice: 10.00,
+    inStock: true
+  },
+  {
+    id: 'util-087',
+    name: 'Relogio Despertador Analógico Pequeno',
+    description: 'Relogio Despertador Analógico Pequeno.',
+    image: '/UtilidadesFredChat/RelogioDespertador.png',
+    category: 'utilidades',
+    retailPrice: 12.00,
+    wholesalePrice: 8.50,
+    inStock: true
+  },
+  {
+    id: 'util-088',
+    name: 'Roda para Carrinho de Feira / Mercado ',
+    description: 'Roda para Carrinho de Feira / Mercado.',
+    image: '/UtilidadesFredChat/Roda.png',
+    category: 'utilidades',
+    retailPrice: 20.00,
+    wholesalePrice: 10.00,
+    inStock: true
+  },
+  {
+    id: 'util-089',
+    name: 'Saco a vácuo ',
+    description: 'Saco a vácuo.',
+    image: '/UtilidadesFredChat/SacoAVacuo.png',
+    category: 'utilidades',
+    retailPrice: 15.00,
+    wholesalePrice: 10.00,
+    inStock: true
+  },
+  {
+    id: 'util-090',
+    name: 'Suporte de Facas de Parede ',
+    description: 'Suporte de Facas de Parede.',
+    image: '/UtilidadesFredChat/SuporteFacas.png',
+    category: 'utilidades',
+    retailPrice: 25.00,
+    wholesalePrice: 18.50,
+    inStock: true
+  },
+  {
+    id: 'util-091',
+    name: 'Trava de Segurança para Portas ',
+    description: 'Trava de Segurança para Portas.',
+    image: '/UtilidadesFredChat/SuportePorta.png',
+    category: 'utilidades',
+    retailPrice: 10.00,
+    wholesalePrice: 7.50,
+    inStock: true
+  },
+  {
+    id: 'util-092',
+    name: 'Suporte de Vassoura e Rodo ',
+    description: 'Suporte de Vassoura e Rodo.',
+    image: '/UtilidadesFredChat/SuporteVassoura.png',
+    category: 'utilidades',
+    retailPrice: 10.00,
+    wholesalePrice: 6.00,
+    inStock: true
+  },
+  {
+    id: 'util-093',
+    name: 'Varal de Peças Intimas  ',
+    description: 'Varal de Peças Intimas.',
+    image: '/UtilidadesFredChat/VaralPeçaIntima.png',
+    category: 'utilidades',
+    retailPrice: 35.00,
+    wholesalePrice: 22.50,
+    inStock: true
+  },
+
+
 
   // Controle Remoto
   {
@@ -2132,7 +2504,7 @@ export const products: Product[] = [
     id: 'ctrl-028',
     name: 'Controle Remoto Receptor MeoFlix',
     description: 'Controle remoto para receptor MeoFlix.',
-    image: '/ControlesFredChat/MeoFlix.png',
+    image: '/ControlesFredChat/MeoFLix.png',
     category: 'controle-remoto',
     retailPrice: 25.00,
     wholesalePrice: 10.00,
@@ -2392,7 +2764,7 @@ export const products: Product[] = [
     id: 'ctrl-054',
     name: 'Controle Remoto Receptor TocomBox',
     description: 'Controle remoto para Receptor TocomBox.',
-    image: '/ControlesFredChat/TocomBox.png',
+    image: '/ControlesFredChat/Tocombox.png',
     category: 'controle-remoto',
     retailPrice: 25.00,
     wholesalePrice: 10.00,
@@ -3052,7 +3424,7 @@ export const products: Product[] = [
     id: 'ctrl-120',
     name: 'Controle Remoto Tv Buster LCD',
     description: 'Controle remoto para Tv Buster LCD.',
-    image: '/ControlesFredChat/BusterLCD.png',
+    image: '/ControlesFredChat/BusterLcd.png',
     category: 'controle-remoto',
     retailPrice: 25.00,
     wholesalePrice: 10.00,
