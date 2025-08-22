@@ -268,8 +268,8 @@ export const products: Product[] = [
     description: 'Antena digital interna, ideal para recepção de sinal de TV digital.',
     image: '/EletronicosFredChat/AntenaDigital4.png',
     category: 'eletronicos',
-    retailPrice: 0.00,
-    wholesalePrice: 0.00,
+    retailPrice: 35.00,
+    wholesalePrice: 22.00,
     inStock: true
   },
   {
@@ -1702,8 +1702,8 @@ export const products: Product[] = [
     description: 'Suporte para celular de moto, ideal para navegação e chamadas.',
     image: '/UtilidadesFredChat/SuporteMoto.png',
     category: 'utilidades',
-    retailPrice: 0.00,
-    wholesalePrice: 0.00,
+    retailPrice: 45.00,
+    wholesalePrice: 28.50,
     inStock: true
   },
   {
@@ -1742,8 +1742,8 @@ export const products: Product[] = [
     description: 'Suporte para celular de moto, ideal para navegação e chamadas.',
     image: '/UtilidadesFredChat/SuporteMoto5.png',
     category: 'utilidades',
-    retailPrice: 0.00,
-    wholesalePrice: 0.00,
+    retailPrice: 35.00,
+    wholesalePrice: 24.50,
     inStock: true
   },
   {
