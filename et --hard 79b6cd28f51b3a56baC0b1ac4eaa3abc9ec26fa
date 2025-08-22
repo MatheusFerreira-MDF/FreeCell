@@ -1,0 +1,53 @@
+[33mcommit 5b1af3dfdb3ef7232f1938f399c725749d3eb407[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Matheus Ferreira <theusferreiraode@icloud.com>
+Date:   Fri Aug 22 09:46:15 2025 -0300
+
+    alterações funcionalidade
+
+[33mcommit 7f90cd628fb51a365a4c0b10cae4aa30c9ec26fa[m
+Author: Matheus Ferreira <theusferreiraode@icloud.com>
+Date:   Fri Aug 22 09:25:38 2025 -0300
+
+    erro barra de pesquisa
+
+[33mcommit 100d9f68a016426fca04dee6dbd2c35af6c3b14b[m
+Author: Matheus Ferreira <theusferreiraode@icloud.com>
+Date:   Fri Aug 22 09:11:50 2025 -0300
+
+    atualizar preços dos produtos
+
+[33mcommit 75a05a7c82ef6c5828bdc8d9a6164893d5f34433[m
+Author: Matheus Ferreira <theusferreiraode@icloud.com>
+Date:   Wed Aug 20 09:30:01 2025 -0300
+
+    Produto Faltando
+
+[33mcommit 77828239d95223f83bbbd87bffe18fce712dd593[m
+Author: Matheus Ferreira <theusferreiraode@icloud.com>
+Date:   Wed Aug 20 09:24:47 2025 -0300
+
+    Atualiza produtos e adiciona imagens de utilidades
+
+[33mcommit f99b90dab35436dedb5f38e38af250a1d6acad52[m
+Author: Matheus Ferreira <theusferreiraode@icloud.com>
+Date:   Tue Aug 19 14:11:25 2025 -0300
+
+    número do  WhatsApp alterado
+
+[33mcommit 0aba48696178129e609936672d12a4942e740f96[m
+Author: Matheus Ferreira <theusferreiraode@icloud.com>
+Date:   Tue Aug 19 11:16:00 2025 -0300
+
+    Corrigido caminho das imagens dos controles remotos
+
+[33mcommit fee5ca95e724866f5b3e775e53960c5b387e3af0[m
+Author: Matheus Ferreira <theusferreiraode@icloud.com>
+Date:   Mon Aug 18 17:08:36 2025 -0300
+
+    Corrige caminhos das imagens dos produtos
+
+[33mcommit 30fd9f31cf7314c4f2b638dba94b74192b5c0c94[m
+Author: Matheus Ferreira <theusferreiraode@icloud.com>
+Date:   Mon Aug 18 16:37:32 2025 -0300
+
+    primeiro commit
