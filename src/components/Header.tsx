@@ -67,21 +67,26 @@ export const Header = ({ onCategoryChange, onSearch, currentCategory }: HeaderPr
           </nav>
 
           {/* Barra de Pesquisa */}
+          {/* Barra de Pesquisa (visível só no desktop) */}
           <form 
             onSubmit={handleSearch} 
-            className="flex flex-1 max-w-full sm:max-w-md mx-2"
+            className="hidden md:flex flex-1 max-w-full sm:max-w-md mx-2"
           >
             <div className="relative w-full">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
               <Input
+                id="busca"
+                name="busca"
                 type="text"
                 placeholder="Buscar produtos..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="pl-10 transition-all duration-300 focus:ring-2 focus:ring-primary"
+                autoComplete="search"
               />
             </div>
           </form>
+
 
 
           {/* Carrinho e Menu Mobile */}
